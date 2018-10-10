@@ -14,12 +14,12 @@ module.exports = (env, options) => {
             }
         },
         output: {
+            filename: '[name].js',
             path: path.resolve(__dirname, 'public'),
-            publicPath: '/',
         },
         devServer: {
             port: 9090,
-            contentBase: path.resolve(__dirname, '/public'),
+            contentBase: path.resolve(__dirname, 'public'),
             open: true,
             overlay: true
         },

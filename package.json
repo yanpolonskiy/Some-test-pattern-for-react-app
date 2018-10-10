@@ -6,8 +6,8 @@
     "author": "Yan Polonsky",
     "license": "ISC",
     "scripts": {
-        "wds": "webpack-dev-server --mode development --inline --hot --progress --open --build-target",
-        "dev": "npm run wds -- dev",
+        "wds": "webpack-dev-server --mode development --inline --hot --progress --open --display-error-details --build-target",
+        "dev": "npm run wds",
         "build": "webpack --mode production"
     },
     "devDependencies": {
